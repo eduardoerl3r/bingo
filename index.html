@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BINGO</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <h1>BINGO</h1>
+    </header>
+
+    <main>
+        <section id="areaCartelas">
+            <h2>Cartelas</h3>
+                <div id="botao">
+                    <button onclick="criarCartela()">Gerar Cartela</button>
+                    <button onclick="reiniciarJogo()">Reiniciar Jogo</button>
+                </div>
+                <div class="cartelas">
+                </div>
+
+        </section>
+
+        <section id="jogo">
+            <div id="headerJogo">
+                <button onclick="sortearNumero()">Jogar</button>
+            </div>
+            <div id="sorteio"></div>
+        </section>
+    </main>
+
+
+    <footer>
+        DevelopedBy@EduardoErler
+    </footer>
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
